@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#020617] text-slate-200 font-sans antialiased;
+    overflow-x: hidden;
+  }
+}
+
+.nebula-glow {
+  @apply pointer-events-none fixed inset-0 overflow-hidden;
+}
+
+.nebula-glow::before {
+  content: '';
+  @apply absolute -top-[20%] -left-[10%] w-[60%] h-[60%] rounded-full opacity-20 blur-[120px];
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.4) 0%, rgba(168, 85, 247, 0) 70%);
+}
+
+.nebula-glow::after {
+  content: '';
+  @apply absolute -bottom-[20%] -right-[10%] w-[60%] h-[60%] rounded-full opacity-10 blur-[120px];
+  background: radial-gradient(circle, rgba(168, 85, 247, 0.4) 0%, rgba(99, 102, 241, 0) 70%);
+}
+
+.glass-card {
+  @apply bg-slate-900/40 backdrop-blur-xl border border-white/10 shadow-2xl;
+}
+
+.glass-input {
+  @apply bg-slate-950/50 backdrop-blur-md border border-white/5 focus:border-indigo-500/50 focus:ring-4 focus:ring-indigo-500/10 transition-all outline-none;
+}

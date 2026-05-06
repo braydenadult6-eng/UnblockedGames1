@@ -1,0 +1,42 @@
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "category": "Puzzle",
+    "url": "https://play2048.co/",
+    "thumbnail": "https://images.unsplash.com/photo-1614332287897-cdc189fa26b4?w=400&h=300&fit=crop",
+    "description": "Join the numbers and get to the 2048 tile!"
+  },
+  {
+    "id": "hextris",
+    "title": "Hextris",
+    "category": "Arcade",
+    "url": "https://hextris.io/",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=300&fit=crop",
+    "description": "A fast-paced puzzle game inspired by Tetris."
+  },
+  {
+    "id": "tower-game",
+    "title": "Tower Building",
+    "category": "Casual",
+    "url": "https://www.towergame.app/",
+    "thumbnail": "https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?w=400&h=300&fit=crop",
+    "description": "How high can you build your tower?"
+  },
+  {
+    "id": "flappy-bird",
+    "title": "Flappy Bird",
+    "category": "Arcade",
+    "url": "https://flappybird.io/",
+    "thumbnail": "https://images.unsplash.com/photo-1561149834-cedf8490d2a2?w=400&h=300&fit=crop",
+    "description": "Fly through the pipes without crashing!"
+  },
+  {
+    "id": "cookie-clicker",
+    "title": "Cookie Clicker",
+    "category": "Idle",
+    "url": "https://orteil.dashnet.org/cookieclicker/",
+    "thumbnail": "https://images.unsplash.com/photo-1558961363-fa4f0c5f49ed?w=400&h=300&fit=crop",
+    "description": "The original idle game about baking cookies."
+  }
+]
